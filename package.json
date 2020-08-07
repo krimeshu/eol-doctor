@@ -1,0 +1,15 @@
+{
+  "name": "eol-doctor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "eol-doctor": "cli.js"
+  },
+  "scripts": {
+    "test": "eol-doctor . lf --and a --not b"
+  },
+  "keywords": [],
+  "author": "krimeshu",
+  "license": "GPL"
+}
