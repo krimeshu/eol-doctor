@@ -1,15 +1,26 @@
 {
   "name": "eol-doctor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fix file EOL recursively.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krimeshu/eol-doctor.git"
+  },
   "bin": {
     "eol-doctor": "cli.js"
   },
   "scripts": {
     "test": "eol-doctor . lf --and a --not b"
   },
-  "keywords": [],
+  "keywords": [
+    "eol",
+    "eol-doctor"
+  ],
   "author": "krimeshu",
-  "license": "GPL"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krimeshu/eol-doctor/issues"
+  },
+  "homepage": "https://github.com/krimeshu/eol-doctor#readme"
 }
